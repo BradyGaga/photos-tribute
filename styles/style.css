@@ -1,0 +1,58 @@
+html {
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: rgb(214, 214, 214);
+    line-height: 2;
+}
+h1 {
+    font-size: 4em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+p, ul, #img-cap, h3 {
+    font-size: 2em;
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.5;
+}
+ul li {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+strong {
+    text-decoration: underline;
+}
+#img-cap {
+    padding-top: 30px;
+}
+#main {
+    margin: 30px;
+    background-color: rgba(20, 13, 7, 0.582);
+    padding: 30px;
+    border-radius: 30px;
+}
+#img-div {
+    background-color: rgba(15, 15, 15, 0.4);
+    padding: 30px;
+    border-radius: 30px;
+}
+#image {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-style: solid;
+    border-width: 20px 20px 60px 20px;
+    border-color: rgb(214, 214, 214);
+}
+#tribute-link, #car-link {
+    color: rgb(214, 214, 214);
+}
+#tribute-link:hover, #car-link:hover {
+    text-shadow: 0 0 3px white;
+}
+#tribute-link:visited, #car-link:visited {
+    color: rgb(129, 62, 129);
+}
